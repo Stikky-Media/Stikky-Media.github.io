@@ -1,4 +1,5 @@
 const { defaultTheme } = require('@vuepress/theme-default')
+const { searchPlugin } = require('@vuepress/plugin-search')
 
 module.exports = {
   head: [['link', { rel: 'icon', href: 'https://www.stikkymedia.com/wp-content/uploads/2020/02/stikkyicon-orange.png' }]],
@@ -10,5 +11,8 @@ module.exports = {
     contributors: false,
     darkMode: true,
     logoDark: "https://www.stikkymedia.com/wp-content/uploads/2021/01/stikkylogo-sideways-white-1.png"
-  })
+  }),
+  plugins: [
+    searchPlugin()
+  ],
 }
