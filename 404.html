@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.46">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="https://www.stikkymedia.com/wp-content/uploads/2020/02/stikkyicon-orange.png"><title></title><meta name="description" content="">
+    <link rel="modulepreload" href="/assets/app.0bd10205.js"><link rel="modulepreload" href="/assets/404.html.82900b4e.js"><link rel="modulepreload" href="/assets/404.html.0f07aaf0.js"><link rel="prefetch" href="/assets/index.html.8b5652dd.js"><link rel="prefetch" href="/assets/new-file.html.0c0c9b1f.js"><link rel="prefetch" href="/assets/index.html.7b8adb94.js"><link rel="prefetch" href="/assets/new-file.html.e615763a.js"><link rel="prefetch" href="/assets/404.173cb648.js"><link rel="prefetch" href="/assets/Layout.00b7236a.js">
+    <link rel="stylesheet" href="/assets/style.a66a6dd5.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.0bd10205.js" defer></script>
+  </body>
+</html>
