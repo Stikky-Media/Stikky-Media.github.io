@@ -10,7 +10,11 @@ module.exports = {
     description: 'This is my first VuePress site',
     contributors: false,
     darkMode: true,
-    logoDark: "https://www.stikkymedia.com/wp-content/uploads/2021/01/stikkylogo-sideways-white-1.png"
+    logoDark: "https://www.stikkymedia.com/wp-content/uploads/2021/01/stikkylogo-sideways-white-1.png",
+    sidebar: [
+      'README.md',
+      'new-file.md'
+    ],
   }),
   plugins: [
     searchPlugin()
